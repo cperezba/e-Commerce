@@ -45,6 +45,12 @@ Installation is quick and easy! Merely clone this repository or download the ZIP
 1. Return 'force: true' to 'false' and seed database with command prompt: ```npm run seed``` 
 1. Run command prompt ``` nodemon server.js ``` and troubleshoot routes with Insomnia or similar program!
 
+___
+![eCommerce Routes Code](assets/code-routes.PNG)
+___
+![Insomnia Troubleshooting on eCommerce Routes](assets/insomnia-routes-api-categories.PNG)
+___
+
 
 <br/>
 
