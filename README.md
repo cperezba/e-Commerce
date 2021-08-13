@@ -22,7 +22,7 @@
 
 As a means of learning Object Relational Mapping (ORM), Sequelize, and environment variables within Node.js, an eCommerce website was simulated!
 
-In this project this eCommerce website simulator was made using strictly backend programming and middleware. All routes were succesfuly troubleshooted using Insomnia and all database structures using Sequelize.
+In this project this eCommerce website simulator was made using strictly backend programming and middleware. All databases were created using Sequelize and routes were succesfuly troubleshooted using Insomnia.
 
 
 
@@ -30,7 +30,13 @@ In this project this eCommerce website simulator was made using strictly backend
 
 ## <a id="installation-header"></a> Installation
 
-Installation is quick and easy! Merely clone this repository or download the ZIP files - all under the top green "Code" button on the upper right hand side!
+Installation is quick and easy! 
+1. Clone this repository or download the ZIP files - all under the top green "Code" button on the upper right hand side of this page.
+1. Open the eCommerce folder on VS Code or or other code editor. 
+1. Open integrated terminal within server.js. 
+1. Install dependencies using the following command prompt: ``` npm i ``` 
+1. Change 'force: false' to 'true' and run ``` node server.js ``` 
+1. Return 'force: true' to 'false' and seed database with command prompt: ```npm run seed``` 
 
 
 <br/>
@@ -38,12 +44,7 @@ Installation is quick and easy! Merely clone this repository or download the ZIP
 ## <a id="usage-header"></a> Usage
 <br/>
 
-1. Open the eCommerce folder on VS Code or or other code editor. 
-1. Open integrated terminal within server.js. 
-1. Install dependencies using the following command prompt: ``` npm i ``` 
-1. Change 'force: false' to 'true' and run ``` node server.js ``` 
-1. Return 'force: true' to 'false' and seed database with command prompt: ```npm run seed``` 
-1. Run command prompt ``` nodemon server.js ``` and troubleshoot routes with Insomnia or similar program!
+Run command prompt ``` nodemon server.js ``` and troubleshoot routes with Insomnia or similar program!
 
 ___
 ![eCommerce Routes Code](assets/code-routes.PNG)
